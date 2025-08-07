@@ -8,7 +8,7 @@
 
 
     $buscarLogin ="SELECT *
-                   FROM usuario 
+                   FROM usuarios 
                     WHERE email = '$emailUsuario'
                     AND senha = md5('$senhaUsuario')
                     ";
